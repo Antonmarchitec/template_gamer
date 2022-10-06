@@ -132,5 +132,34 @@ function validar(){
                 },
         });
         return false
+    }else{
+        Swal.fire({
+            title:"<h2> Mensaje enviado satisfactoriamente. <h2>",    //tilte si se acepta codigo html
+            icon:"success",  //error   wargning  info  success
+            confirmButtonText:"Aceptar",
+            backdrop:true,    //el fondo se matiza oscuro con true y false 
+            footer: '<h3>¡Error en campo correo!</h3>',  //se puede utilizar html
+            padding: "10px",   //paddinn ventana
+            background:"rgba(17, 17, 17, 0.895)",   //fondo de la ventana
+            position:"center",  // center  top  bottom   top-start  top-end  bottom-end    bottom-start
+
+            //IMAGENES EN LA ALERTA
+                imageUrl:'./img/ada.png',
+                imageAlt:'ada',
+
+            //PERSONALIZAR Y DARLE ESTILOS A LOS BOTONES 
+                buttonsStyling: false,     //true para trabajar con stilos de switchAlert
+                showCloseButton: true,     //coloca el la x para cerrar
+                closeButtonAriaLabel:"Cerrar alerta",
+
+            //IMPORTANTE PARA TRABAJAR CON ESTILOS PERSONALIZADOS
+                customClass:{
+                    popup: "class_popup",
+                    image:'class_image',
+                    confirmButton:"class_buttonConfirm",
+                    footer:'class_footer'
+                },
+        });
+        return false
     }
 }
