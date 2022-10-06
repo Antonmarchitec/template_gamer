@@ -37,6 +37,7 @@ antomgame2.42web.io (copia y pega la URL)
 -- Mark Zuckerberg --
 
 ## Imagen del proyecto.
+![landing_antomgame](https://user-images.githubusercontent.com/70084380/194435347-c6ace947-6070-4855-9d08-fc6191366128.jpg)
 
 
 
