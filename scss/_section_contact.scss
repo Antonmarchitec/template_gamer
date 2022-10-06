@@ -1,0 +1,333 @@
+@import "colorFont";
+
+.contSectionContact{
+    width: 100%;
+    background-image: url(../img/gamer3.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+    .contSectionContact_gradient{
+        width: 100%;
+        height: 300px;
+        background: linear-gradient($color_violet_oscuro,transparent);
+    }
+
+    .contSectionContact_form{
+        width: 600px;
+        padding: 30px 30px;
+        margin-left: 30px;
+        position: relative;
+        z-index: 10;
+        .contSectionContact_form_title{
+            color: $color_verde;
+            font-family:$font_family_titles_h2;
+            font-size:$fontSize_titles_h2;
+        }
+        .contSectionContact_form_box{
+            width: 100%;
+            padding: 10px 0px;
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            label{
+                color: $color_violet_white;
+                padding: 0px 10px;
+                font-size: 20px;
+            }
+            input{
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                border: none;
+                background: transparent;
+                border-bottom: 2px solid green;
+                color: white;
+            }
+            textarea{
+                margin-top: 20px;
+                max-width: 100%;
+                min-width: 100%;
+                min-height: 100px;
+                max-height: 100px;
+                padding: 10px;
+                background: transparent;
+                color: white;
+                border: 2px solid $color_verde;
+                outline: none;
+                resize:none;
+            }
+        }
+
+        .contSectionContact_form_buton{
+            margin-top: 10px;
+            width: 250px;
+            padding: 10px 0px;
+            border: none;
+            background: rgb(28,222,20);
+            background: linear-gradient(120deg, rgba(28,222,20,1) 4%, rgba(2,1,20,0.8608485630580357) 56%);
+            border-radius: 20px;
+            transition: 0.5s all;
+            color: white;
+        }
+        .contSectionContact_form_buton:hover{
+            background: rgb(2,1,20);
+            background: linear-gradient(120deg, rgba(2,1,20,0.8608485630580357) 47%, rgba(28,222,20,1) 66%);
+            cursor: pointer;
+        }
+
+        
+    }
+
+    .contSectionContact_blockAda{
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        left: 300px;
+        top: 10px;
+        animation-name: brillar;
+        animation-duration: 1.5s;
+        animation-fill-mode:backwards;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    @keyframes brillar {
+        from{
+            transform: translateX(-10px) translateY(10px);
+        }to{
+            transform: translateX(10px) translateY(-10px);
+        }
+        
+    }
+
+    .contSectionContact_blockPrincesa{
+        width: 650px;
+        height: 85%;
+        position: absolute;
+        bottom: 0;
+        right: 50px;
+    }
+}
+
+
+
+/**********************************/
+/******************/
+/*********************************/
+
+@media (min-width:900px)  and (max-width:1024px){
+    .contSectionContact{
+        width: 100%;
+        background-image: url(../img/gamer3.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        position: relative;
+        .contSectionContact_gradient{
+            width: 100%;
+            height: 200px;
+            background: linear-gradient($color_violet_oscuro,transparent);
+        }
+    
+        .contSectionContact_form{
+            width: 600px;
+            padding: 30px 30px;
+            margin-left: 30px;
+            position: relative;
+            z-index: 10;
+            .contSectionContact_form_title{
+                color: $color_verde;
+                font-family:$font_family_titles_h2;
+                font-size:$fontSize_titles_h2;
+            }
+            .contSectionContact_form_box{
+                width: 100%;
+                padding: 10px 0px;
+                margin-bottom: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                label{
+                    color: $color_violet_white;
+                    padding: 0px 10px;
+                    font-size: 20px;
+                }
+                input{
+                    width: 100%;
+                    padding: 10px;
+                    outline: none;
+                    border: none;
+                    background: transparent;
+                    border-bottom: 2px solid green;
+                    color: white;
+                }
+                textarea{
+                    margin-top: 20px;
+                    max-width: 100%;
+                    min-width: 100%;
+                    min-height: 100px;
+                    max-height: 100px;
+                    padding: 10px;
+                    background: transparent;
+                    color: white;
+                    border: 2px solid $color_verde;
+                    outline: none;
+                    resize:none
+                }
+            }
+    
+            .contSectionContact_form_buton{
+                margin-top: 10px;
+                width: 250px;
+                padding: 10px 0px;
+                border: none;
+                background: rgb(28,222,20);
+                background: linear-gradient(120deg, rgba(28,222,20,1) 4%, rgba(2,1,20,0.8608485630580357) 56%);
+                border-radius: 20px;
+                transition: 0.5s all;
+                color: white;
+            }
+            .contSectionContact_form_buton:hover{
+                background: rgb(2,1,20);
+                background: linear-gradient(120deg, rgba(2,1,20,0.8608485630580357) 47%, rgba(28,222,20,1) 66%);
+                cursor: pointer;
+            }
+    
+            
+        }
+    
+        .contSectionContact_blockAda{
+            width: 180px;
+            height: 180px;
+            position: absolute;
+            left: 500px;
+            top: 50px;
+            animation-name: brillar;
+            animation-duration: 1.5s;
+            animation-fill-mode:backwards;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes brillar {
+            from{
+                transform: translateX(-10px) translateY(10px);
+            }to{
+                transform: translateX(10px) translateY(-10px);
+            }
+            
+        }
+    
+        .contSectionContact_blockPrincesa{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            bottom:100px;
+            right: 50px;
+        }
+    }
+}
+
+
+
+
+/**********************************/
+/******************/
+/*********************************/
+
+@media (min-width:320px)  and (max-width:899px){
+    .contSectionContact{
+        width: 100%;
+        background-image: url(../img/gamer3.jpg);
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        position: relative;
+        .contSectionContact_gradient{
+            display: none;
+        }
+    
+        .contSectionContact_form{
+            width: 100%;
+            padding: 100px 10px;
+            margin-left: 0;
+            position: relative;
+            z-index: 10;
+            background: rgba(0, 0, 0, 0.45);
+
+            .contSectionContact_form_title{
+                width: 100%;
+                color: $color_verde;
+                font-family:$font_family_titles_h2;
+                font-size:60px;
+                line-height: 48px;
+                margin-bottom: 20px;
+            }
+            .contSectionContact_form_box{
+                width: 100%;
+                padding: 10px 0px;
+                margin-bottom: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                label{
+                    color: $color_violet_white;
+                    padding: 0px 10px;
+                    font-size: 20px;
+                }
+                input{
+                    width: 100%;
+                    padding: 10px;
+                    outline: none;
+                    border: none;
+                    background: transparent;
+                    border-bottom: 2px solid green;
+                    color: white;
+                }
+                textarea{
+                    margin-top: 20px;
+                    max-width: 100%;
+                    min-width: 100%;
+                    min-height: 100px;
+                    max-height: 100px;
+                    padding: 10px;
+                    background: transparent;
+                    color: white;
+                    border: 2px solid $color_verde;
+                    outline: none;
+                    resize:none
+                }
+            }
+    
+            .contSectionContact_form_buton{
+                margin-top: 10px;
+                width: 250px;
+                padding: 10px 0px;
+                border: none;
+                background: rgb(28,222,20);
+                background: linear-gradient(120deg, rgba(28,222,20,1) 4%, rgba(2,1,20,0.8608485630580357) 56%);
+                border-radius: 20px;
+                transition: 0.5s all;
+                color: white;
+            }
+            
+        }
+    
+        .contSectionContact_blockAda{
+            width: 130px;
+            height: 130px;
+            position: absolute;
+            left: 150px;
+            top: 100px;
+            z-index: 10;
+        }
+    
+        .contSectionContact_blockPrincesa{
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            bottom:200px;
+            right: 10px;
+        }
+    }
+}

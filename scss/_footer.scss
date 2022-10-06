@@ -1,0 +1,73 @@
+@import "colorFont";
+
+.contFooter{
+    width: 100%;
+    padding: 10px 30px;
+    background:$color_violet_oscuro;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    .contFooter_desc{
+        width: auto;
+        padding: 10px 0px;
+        color: $color_verde;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        .span{
+            color: white;
+        }
+    }
+
+    .contFooter_logo{
+        width: 200px;
+        height: 70px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/********************************/
+/************/
+/********************************/
+
+@media (min-width:320px)  and (max-width:480px){
+    .contFooter{
+        width: 100%;
+        padding: 10px;
+        background:$color_violet_oscuro;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:column-reverse;
+        justify-content: space-between;
+        align-items:center;
+        .contFooter_desc{
+            width: 100%;
+            margin-top: -10px;
+            text-align: center;
+            padding: 10px 0px;
+            color: $color_verde;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            .span{
+                color: white;
+            }
+        }
+    
+        .contFooter_logo{
+            margin: auto;
+            width: 200px;
+            height: 70px;
+        }
+    }
+    
+}  

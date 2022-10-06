@@ -1,0 +1,87 @@
+@import "colorFont";
+
+
+.grid_container{
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
+    background: $color_violet_oscuro;
+    display: grid;
+    overflow: hidden;
+    //gap: 1em;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+            "grid_headerDesktop"
+            "grid_section_one"
+            "grid_section_two"
+            "grid_section_three"
+            "grid_section_four"
+            "grid_section_five"
+            "grid_section_contact"
+            "grid_footer"
+    ;
+    .grid_headerDesktop{
+        width: 100%;
+        height: 120px;
+        //padding: 10px 0px;
+        //background:brown;
+        grid-area: grid_headerDesktop;
+        overflow: hidden;
+    }
+
+    .grid_section_one{
+        width: 100%;
+        //padding:10px 0px;
+        //background: brown;
+        grid-area: grid_section_one;   //bien
+    }
+
+    .grid_section_two{
+        width: 100%;
+        //padding: 10px 0px;
+        background:$color_violet_oscuro;
+        //background: brown; 
+        grid-area: grid_section_two;     //el color
+    }
+
+    .grid_section_three{
+        width: 100%;
+        grid-area: grid_section_three;
+        background-image: url(../img/gamer2.jpg);
+        background-size: 100% 100%;
+        //padding: 10px 0px;    //quitar
+        background-attachment: fixed;    //bien
+        
+    }
+
+    .grid_section_four{
+        width: 100%;
+        //padding: 20px 0px;
+        //background: brown;
+        grid-area: grid_section_four;
+    }
+
+    .grid_section_five{
+        width: 100%;
+        //padding: 10px 0px;
+        //background: brown;
+        grid-area: grid_section_five;
+    }
+
+    .grid_section_contact{
+        width: 100%;
+        //padding: 20px 0px;
+        //background: brown;
+        grid-area: grid_section_contact;
+    }
+
+    .grid_footer{
+        width: 100%;
+        //padding: 10px 0px;
+        //background: rgb(255, 0, 0);
+        grid-area: grid_footer;
+    }
+}
+
+

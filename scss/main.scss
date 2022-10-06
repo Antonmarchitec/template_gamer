@@ -1,0 +1,40 @@
+@import "colorFont";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Oswald', sans-serif; //300  //600 ;
+    
+}
+
+html{
+    scroll-behavior: smooth ;
+
+}
+body{
+    background:$color_violet_oscuro;
+    background: rgb(44, 44, 44)
+}
+
+
+
+@import "grid";
+@import "header";
+@import "section_one";
+@import "section_two";
+@import "section_three";
+@import "section_four";
+@import "section_five";
+@import "section_contact";
+@import "footer";
+@import "btnTop";
+@import "msm_enviado";
+
+
+
+
+
+
+

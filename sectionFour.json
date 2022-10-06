@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Link",
+        "description":"Link es un joven espadachín encargado de salvar a la Princesa Zelda del malvado rey de las tinieblas, Ganon.",
+        "image": "./img/figuras/link_fondo.png",
+        "imageCuadro":"./img/figuras/link_frente.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Mario",
+        "description":"Es un personaje ficticio de la franquicia de videojuegos homónima, creado por el diseñador de videojuegos.",
+        "image": "./img/figuras/mario_frente.jpg",
+        "imageCuadro":"./img/figuras/mario_fondo.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Luigi",
+        "description":"Luigi es el hermano menor de Mario y es el icónico compañero de su hermano mayor a lo largo de la franquicia de Mario.",
+        "image": "./img/figuras/luigi_frente.jpg",
+        "imageCuadro":"./img/figuras/luigi_fondo.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Cuphead",
+        "description":"Es una pequeña taza antropomórfica con pantalones cortos de color rojo, con grandes ojos en forma de media luna y una pequeña nariz roja.",
+        "image": "./img/figuras/cup_frente.jpg",
+        "imageCuadro":"./img/figuras/cup_fondo.jpg"
+    }
+]

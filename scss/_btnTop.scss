@@ -1,0 +1,31 @@
+@import "colorFont";
+
+.btnTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    animation: mover;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    opacity: 0;
+    transition: 0.5s all;
+    z-index: 10;
+}
+.iconTopJS{
+    opacity: 1;
+}
+
+
+@keyframes mover {
+    0%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(20px);
+    }
+}

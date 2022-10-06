@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Link personalizado-->
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/preloader.css">
+
+    <!--SWITCH ALERT-->
+    <link rel="stylesheet" href="./css/switchAlert.css">
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/b7fb745aab.js" crossorigin="anonymous"></script>
+
+    <!--fonts Oswald  300  600-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;600&display=swap" rel="stylesheet">
+
+    <!--font Orvitron     400   700-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!--VIDEO.JS CDN-->
+    <link href="https://vjs.zencdn.net/7.19.2/video-js.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/video_js.css">
+
+
+    <!--ANIMATE.CSS-->
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+    <!--HAMBURGURER.CSS-->
+      <link rel="stylesheet" href="./css/hamburgers.css">
+    
+
+    <title>Landing page gamers</title>
+</head>
+
+
+
+<body>
+    <main>
+        <div class="grid_container">
+
+            <!--PRELOADER DE LA PAGINA STAR-->
+            <div class="loader" id="loader">
+
+              <div class="cssload-loader">
+                <div class="cssload-dots">
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                  <div class="cssload-dot"></div>
+                </div>
+              </div>
+              <!--
+              <img src="img/rodaje.gif" class="rodaje">
+              <p style="color: #56fbd3;">Cargando portafolio...</p>
+              -->
+            </div>
+            <!--PRELOADER DE LA PAGINA END-->
+
+            <div class="grid_headerDesktop">
+              <nav class="cont_headerDesktop" id="contHeader">
+                <!--block logo-->
+                <figure class="cont_headerDesktop_logo">
+                  <img src="./img/gamer.png" alt="logo" style="width: 100%; height:100%;">
+                </figure>
+
+                <!--block menu-->
+                <ul class="cont_headerDesktop_menu" id="cont_headerDesktop_menu">
+
+                  <!--HOME-->
+                  <div class="cont_headerDesktop_menu_box">
+                    <li class="cont_headerDesktop_menu_li">
+                      <a href="index.html" class="cont_headerDesktop_menu_li_a1"> HOME</a>
+                    </li>
+
+                    <div class="cont_headerDesktop_menu_icon">
+                      <img src="./img/iconos/home.png" alt="gamer" style="width:100%; height:100%;">
+                    </div>
+                  </div>
+                  
+                  <!--GAMER-->
+                  <div class="cont_headerDesktop_menu_box">
+                    <li class="cont_headerDesktop_menu_li">
+                      <a href="#bienvenido" class="cont_headerDesktop_menu_li_a2"> GAMER</a>
+                    </li>
+
+                    <div class="cont_headerDesktop_menu_icon">
+                      <img src="./img/iconos/gamer.png" alt="gamer" style="width:100%; height:100%;">
+                    </div>
+                  </div>
+
+                  <!--VIDEOS-->
+                  <div class="cont_headerDesktop_menu_box">
+                    <li class="cont_headerDesktop_menu_li">
+                      <a href="#videos" class="cont_headerDesktop_menu_li_a3"> VIDEOS
+                      </a>
+                    </li>
+
+                    <div class="cont_headerDesktop_menu_icon">
+                      <img src="./img/iconos/videos.png" alt="gamer" style="width:100%; height:100%;">
+
+                    </div>
+                  </div>
+
+                  <!--FIGURAS-->
+                  <div class="cont_headerDesktop_menu_box">
+                    <li class="cont_headerDesktop_menu_li">
+                      <a href="#figuras" class="cont_headerDesktop_menu_li_a4"> FIGURAS
+                      </a>
+                    </li>
+
+                    <div class="cont_headerDesktop_menu_icon">
+                      <img src="./img/iconos/figuras.png" alt="gamer" style="width:100%; height:100%;">
+                    </div>
+                  </div>
+
+                  <!--GAMES-->
+                  <div class="cont_headerDesktop_menu_box">
+                    <li class="cont_headerDesktop_menu_li">
+                      <a href="#favorito" class="cont_headerDesktop_menu_li_a5"> GAMES </a>
+                    </li>
+
+                    <div class="cont_headerDesktop_menu_icon">
+                      <img src="./img/iconos/games.png" alt="gamer" style="width:100%; height:100%;">
+                    </div>
+                  </div>
+
+                  <!--CONTACT-->
+                  <div class="cont_headerDesktop_menu_box">
+                    <li class="cont_headerDesktop_menu_li">
+                      <a href="#contacto" class="cont_headerDesktop_menu_li_a6"> CONTACTO </a>
+                    </li>
+
+                    <div class="cont_headerDesktop_menu_icon">
+                      <img src="./img/iconos/contact.png" alt="gamer" style="width:100%; height:100%;">
+                    </div>
+                  </div>
+                </ul>
+
+                <!--block button-->
+                <a href="https://facebook.com/AntomGame" target="_blank">
+                  <button type="button" class="cont_headerDesktop_button"> Facebook </button>
+                </a>
+                <!--btn Responsive-->
+                <div class="cont_headerDesktop_btnRes" id="btnResponsive">
+                  <button class="hamburger hamburger--spring" type="button" >
+                    <span class="hamburger-box" >
+                      <span class="hamburger-inner"></span>
+                    </span>
+                  </button>
+                </div>
+              </nav>
+            </div>
+    
+    
+            <div class="grid_section_one" id="home">
+              <div class="cont_sectionOne">
+                <div class="cont_sectionOne_fondo">
+
+                </div>
+
+                <div class="cont_sectionOne_opacity">
+                  <h1 class="cont_sectionOne_opacity_title"> Gamer Portal</h1>
+
+                  <p class="cont_sectionOne_opacity_parrafo">
+                    Lo que define a un <span class="as"> Gamer </span> no son las veces que aparezca un <span class="as"> Game Over </span> sino las veces que decida no rendirse y usar un <span class="as">"Continúe".</span> 
+                  </p> 
+
+                  <div class="cont_sectionOne_opacity_iconos">
+                    <figure class="cont_sectionOne_opacity_iconos_circle
+                    wow animate__animated animate__fadeInDown">
+                      <img src="./img/circulo.png" alt="circle" style="width: 100%; height:100%;">
+                    </figure>
+
+                    <figure class="cont_sectionOne_opacity_iconos_circle
+                    wow animate__animated animate__fadeInUp">
+                      <img src="./img/cuadrado.png" alt="cuadrado" style="width: 100%; height:100%;">
+                    </figure>
+
+                    <figure class="cont_sectionOne_opacity_iconos_circle
+                    wow animate__animated animate__fadeInDown">
+                      <img src="./img/triangulo.png" alt="triangulo" style="width: 100%; height:100%;">
+                    </figure>
+
+                    <figure class="cont_sectionOne_opacity_iconos_circle
+                    wow animate__animated animate__fadeInUp">
+                      <img src="./img/equis.png" alt="cruz" style="width: 100%; height:100%;">
+                    </figure>
+                  </div>
+
+                  <div class="cont_sectionOne_opacity_recta">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0c0c0c" fill-opacity="1" d="M0,160L1440,288L1440,320L0,320Z"></path></svg>
+                  </div>
+
+                  
+                </div>
+
+                
+                
+                
+
+                
+              </div>
+            </div>
+    
+            <div class="grid_section_two" id="bienvenido">
+              <div class="contSectionTwo">
+
+                <!--BLOCK LEFT-->
+                <div class="contSectionTwo_left">
+
+                  <h2 class="contSectionTwo_left_title
+                  wow animate__animated animate__fadeInUp"> GamePlay</h2>
+
+                  <p class="contSectionTwo_left_parrafo
+                  wow animate__animated animate__fadeInUp">
+                  Bienvenido al sitio oficial de AntomGame, un sitio que fue desarrollado con mucho cariño para todos los amantes de los videojuegos clásicos, recordaremos aquellos juegos que fueron parte de toda nuestra infancia, compartiremos historias y reviviremos a cada uno de nuestros personajes favoritos.
+                  </p>
+
+                  <button type="button" class="contSectionTwo_left_buton
+                  wow animate__animated animate__fadeIn" id="contSectionTwo_left_buton">
+                    <p class="text"> More </p>
+
+                    <figure class="imgh">
+                      <img src="./img/ada.png" alt="espada" style="width: 100%;height:100%;">
+                    </figure>  
+                  </button>
+
+
+                    <!--BLOCK SUELTOS-->
+                  <div class="contSectionTwo_amarillo">
+                    <img src="./img/medallon_amarillo.png" alt="amarillo" style="width: 100%;height:100%;">
+                  </div>
+
+                  <div class="contSectionTwo_violeta">
+                    <img src="./img/medallon_lila.png" alt="amarillo" style="width: 100%;height:100%;">
+                  </div>
+
+                  <div class="contSectionTwo_naranja">
+                    <img src="./img/medallon_naranja.png" alt="amarillo" style="width: 100%;height:100%;">
+                  </div>
+
+                  <div class="contSectionTwo_verde">
+                    <img src="./img/medallon_verde.png" alt="amarillo" style="width: 100%;height:100%;">
+                  </div>
+
+                  <div class="contSectionTwo_azul">
+                    <img src="./img/medallon_azul.png" alt="amarillo" style="width: 100%;height:100%;">
+                  </div>
+
+                  <div class="contSectionTwo_rojo">
+                    <img src="./img/medallon_rojo.png" alt="amarillo" style="width: 100%;height:100%;">
+                  </div>
+                </div>
+
+                 <!--BLOCK RIGHT-->
+                <div class="contSectionTwo_right ">
+                  <figure class="contSectionTwo_right_image 
+                    wow animate__animated animate__fadeInRight">
+                    <img src="./img/fondoGrande.png" alt="gamer2" style="width: 100%; height: 100%;">
+                  </figure>
+
+                  
+                </div>
+
+                <!--BLOQUE FLOTANTE-->
+                <div class="contSectionTwo_right_flotante">
+
+                </div>
+
+                
+              </div>
+            </div>
+    
+            <div class="grid_section_three" id="videos">
+              <div class="contSectionThree">
+                <!--CAJA CURVA-->
+                <div class="contSectionThree_curva">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0c0c0c" fill-opacity="1" d="M0,160L1440,288L1440,0L0,0Z"></path></svg>
+                </div>
+                <!--TITULO VIDEOS-->
+                <h2 class="contSectionThree_title"> Favorite  videos </h2>
+
+                <!--CONTENEDOR DE LOS VIDEOS-->
+                <div class="contVideos">
+
+                  <!--BLOCK VIDEO 1-->
+                  <div class="contSectionThree_media
+                  wow animate__animated animate__fadeIn">
+                    <video autoplay muted
+                      id="my-video"
+                      class="video-js vjs-16-9 vjs-big-play-centered"
+                      controls
+                      width="auto"
+                      height="auto"
+                      preload="auto"
+                      poster="MY_VIDEO_POSTER.jpg"
+                      data-setup="{}">
+                      <source src="" type="video/mp4" />
+                    </video>
+
+                    <!--titulo-->
+                    <h2 class="contSectionThree_media_title">Starcraft II</h2>
+                  </div>
+
+                  <!--BLOCK VIDEO 2-->
+                  <div class="contSectionThree_media
+                  wow animate__animated animate__fadeIn">
+                    <video autoplay muted
+                      id="my-video"
+                      class="video-js vjs-16-9 vjs-big-play-centered"
+                      controls
+                      width="auto"
+                      height="auto"
+                      preload="auto"
+                      poster="MY_VIDEO_POSTER.jpg"
+                      data-setup="{}">
+                      <source src="" type="video/mp4" />
+                    </video>
+
+                    <!--titulo-->
+                    <h2 class="contSectionThree_media_title">Need for Speed Underground</h2>
+
+                  </div>
+                  
+
+                               
+                </div>
+
+                <!--CAJA CURVA-->
+                <div class="contSectionThree_curva2">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0c0c0c" fill-opacity="1" d="M0,64L1440,160L1440,320L0,320Z"></path></svg>
+                </div>
+
+              </div>
+            </div>
+    
+            <div class="grid_section_four" id="figuras">
+              <div class="contSectionFour"> 
+                <!--title-->
+                <h2 class="contSectionFour_title">Favorite  figures</h2>
+
+                <!--CONTENEDOR BOX-->
+                <div class="contSectionFour_contBox" id="contFour">
+                  
+
+                  <!--TEMPLATE-->
+                  <template id="templateFour">
+                    <div class="contSectionFour_contBox_base
+                    wow animate__animated animate__bounceIn">
+                      <!--FIGURA FONDO-->
+                      <figure class="contSectionFour_contBox_base_imgFondo">
+                        <img id="imgFondo" style="width: 100%; height:100%;">
+                      </figure>
+  
+                      <!--CUADRO DEL FRENTE-->
+                      <div class="contSectionFour_contBox_base_cuadro">
+                        <figure class="contSectionFour_contBox_base_cuadro_img">
+                          <img id="imgCuadro" style="width:100%;height:100%;">
+                        </figure>
+  
+                        <div class="contSectionFour_contBox_base_cuadro_op">
+                          <h2 class="contSectionFour_contBox_base_cuadro_op_title"
+                          id="fourTitle">Figura: Link</h2>
+  
+                          <p class="contSectionFour_contBox_base_cuadro_op_parrafo"
+                          id="fourParrafo">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro rerum error voluptates ut est quod temporibus tempore, nesciunt velit doloremque quo 
+                          </p>
+  
+                          <figure class="contSectionFour_contBox_base_cuadro_logo">
+                            <img src="./img/gamer.png" alt="logo" style="width: 100%; height:100%;">
+                          </figure>
+                        </div>
+                      </div>
+                    </div>
+                  </template>
+                </div>
+
+                <!--CONTENEDOR FLOTANTE-->
+                <div class="contSectionFour_boxFlotante">
+
+                </div>
+
+                <!--CONTENEDOR FLOTANTE-->
+                <div class="contSectionFour_boxFlotante2">
+                  
+                </div>
+              </div>
+            </div>
+    
+            <div class="grid_section_five" id="favorito">
+              <div class="contSectionFive">
+                <div class="contSectionFive_rectaTop">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0c0c0c" fill-opacity="1" d="M0,160L1440,288L1440,0L0,0Z"></path></svg>
+                </div>
+
+                <h2 class="contSectionFive_title"> favorite Games </h2>
+
+                <!--BOCK CONTAINER BOX-->
+                <div class="contSectionFive_contBox
+                wow animate__animated animate__bounceIn" id="contSectionFive">
+
+                  
+                  <!--TEMPLATE-->
+                  <template id="templateFive">
+                    <div class="contSectionFive_contBox_block">
+                    
+                      <!--BLOCK IMAGEN-->
+                      <figure class="contSectionFive_contBox_blockImg">
+                        <img style="width:100%;height:100%;">
+                      </figure>
+  
+                      <!--BLOCK CONTBOX-->
+                      <div class="contSectionFive_contBox_blockContbox">
+                        <h2 class="contSectionFive_contBox_blockContbox_title" id="templateFiveTitle">title name</h2>
+  
+                      <p class="contSectionFive_contBox_blockContbox_parrafo" id="templateFiveDesc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet beatae voluptatibus a pariatur illum excepturi mollitia, facere fugit nisi autem velit. Doloremque saepe voluptatem aspernatur aliquid ipsa soluta magni neque.
+                      </p>
+  
+                      <button type="button" class="contSectionFive_contBox_blockContbox_btn"
+                      id="templateFiveButton"> READ MORE </button>
+                      </div>
+                      
+                    </div>  
+                  </template>
+                </div>
+
+                <div class="contSectionFive_rectaBottom">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0c0c0c" fill-opacity="1" d="M0,64L1440,160L1440,320L0,320Z"></path></svg>
+                </div>
+              </div>
+            </div>
+
+            <div class="grid_section_contact" id="contacto">
+              <div class="contSectionContact">
+
+                <!--block gradient-->
+                <div class="contSectionContact_gradient">
+
+                </div>
+
+                <!--block formulario-->
+                <form action="enviar.php" method="Post" class="contSectionContact_form" 
+                onsubmit="return validar();">
+                  <h2 class="contSectionContact_form_title">Contact me</h2>
+
+                  <div class="contSectionContact_form_box">
+                    <label for="nameForm">Nombre Completo</label>
+                    <input type="text" name="nombre" placeholder="Coloca tu nombre completo" id="nameForm">
+                  </div>
+
+                  <div class="contSectionContact_form_box">
+                    <label for="mailForm">Correo electronico</label>
+                    <input type="text" name="email" placeholder="example@gmail.com" id="mailForm">
+                  </div>
+
+                  <div class="contSectionContact_form_box">
+                    <label for="comentario"> ¿Te gustaría desarrollar una página para tu GamePlay como esta y destacar como gamer? ¡Envíame un mensaje y coordinemos algo genial!
+                    </label>
+                    <textarea placeholder="Escribe tu solicitud" name="comentario"></textarea>
+                  </div>
+
+                  <button type="submit" class="contSectionContact_form_buton"
+                  onclick="validar()"> Enviar mensaje </button>
+                </form>
+                
+                <!--block image-->
+                <figure class="contSectionContact_blockAda">
+                  <img src="./img/ada.png" alt="ada" style="width:100%;height:100%;">
+                </figure>
+
+                <figure class="contSectionContact_blockPrincesa
+                wow animate__animated animate__fadeInRight">
+                  <img src="./img/kupa.png" alt="princesa" style="width:100%;height:100%;">
+                </figure>
+              </div>
+            </div>
+
+            <div class="grid_footer">
+              <div class="contFooter">
+                <h2 class="contFooter_desc">Copyrights reserved || 
+                  <span class="span"> Antonio Ponce </span>
+                </h2>
+
+                <figure class="contFooter_logo">
+                  <img src="./img/gamer.png" alt="logo" style="width:100%; height:100%;">
+                </figure>
+              </div>
+            </div>
+
+            <!--BTN TOP-->
+            <a href="index.html">
+              <figure class="btnTop" id="iconTop">
+               <img src="./img/top.png" alt="arrow" style="width: 100%; height:100%;" >
+              </figure>
+            </a>
+            
+        </div>
+    </main>
+
+
+    <!--VIDEO JS-->
+    <script src="https://vjs.zencdn.net/7.19.2/video.min.js"></script>
+
+    <!--SCRIPT DE ANIMATION EL SCROLLING-->
+    <script src="./js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <!--PRELOADER-->
+    <script src="./js/preloader.js"></script>
+
+    <!--SCRIPTS-->
+    <script src="./js/section_five.js/template.js"></script>
+    <script src="./js/section_four.js/templateFour.js"></script>
+    <script src="./js/btnTop.js"></script>
+
+    <!--Personalizado-->
+    <script src="./js/header.js"></script>
+
+    <!--SWITCH ALERT-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/validacionForm.js"></script>
+
+    <!--HAMBURGUERS-->
+    <script src="./js/hamburguesa.js"></script>
+    
+</body>
+</html>

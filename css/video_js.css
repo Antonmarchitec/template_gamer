@@ -1,0 +1,35 @@
+:root{
+    --color_verde:#00ae00;
+}
+
+/*CLASES POR FEFAULT VIDEO.JS */
+.video-js{
+    width: 100%;  /*borde del contenedor*/
+    border: 3px solid var(--color_verde);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.5s all;
+}
+.video-js:hover{    /*hover del video*/
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px var(--color_verde);
+}
+.vjs-control-bar{  /*color de la toda la barra y de los controles*/
+    background: var(--color_verde);
+    color: var(--color_verde);
+}
+.vjs-play-progress,
+.vjs-volume-level{     /*barra de progreso marcado*/
+    background: rgb(168, 29, 29);
+
+}
+.vjs-slider{     /*barra de progreso sin marcar*/
+    background: rgb(126, 126, 126);
+}
+.vjs-big-play-button{    /*fondo del boton*/
+    background: var(--color_verde);
+} 
+.vjs-big-play-button:hover{
+    background: var(--color_verde);
+    color: rgb(2, 160, 36);
+}

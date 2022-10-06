@@ -1,0 +1,78 @@
+@import "colorFont";
+
+/*
+container_img
+container_mensaje
+container_linea
+container_mensaje
+*/
+a{
+    text-decoration: none;
+}
+
+.main_container{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/gamer.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .container{
+        width: 400px;
+        padding: 30px 0px;
+        background: rgba(4, 37, 6, 0.591);
+        border: 2px solid $color_verde;
+        box-shadow: 0px 0px 10px $color_verde;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        .container_img{
+            width: 60px;
+            height: 60px;
+            animation-name:volar;
+            animation-duration: 1.5s;
+            animation-fill-mode: backwards;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes volar {
+            from{
+                transform: translateX(-5px) translateY(5px);
+            }to{
+                transform: translateX(5px) translateY(-5px);
+            }
+        }
+
+        .container_mensaje{
+            width: 280px;
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+            font-family: $font_family_titles_h1;
+            font-size: 20px;
+
+
+        }
+
+        .container_linea{
+            margin-top: 20px;
+            width: 70%;
+            height: 2px;
+            background: $color_verde;
+            border: none;
+        }
+        .container_regresar{
+            margin-top: 20px;
+            color: $color_verde;
+            font-size: 15px;
+            transition: 0.5s all;
+        }
+        .container_regresar:hover{
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

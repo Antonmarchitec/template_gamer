@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "title": "The legend of Zelda",
+        "description":"Su trama por lo general describe las heroicas aventuras del joven guerrero Link, que debe enfrentarse a peligros y resolver acertijos para ayudar a la Princesa Zelda a derrotar a Ganondorf y salvar su hogar, el reino de Hyrule.  ",
+        "img":"./img/fondo_zelda.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Starcraft II",
+        "description":"StarCraft: Remastered lleva un paso más allá la esencia de la experiencia de los juegos de estrategia de ciencia ficción. Vuelve a sumergirte en el juego original y en su galardonada expansión, StarCraft: Brood War.",
+        "img":"./img/starCraft.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Need for Speed Underground",
+        "description":"Entra en el mundo de las carreras urbanas y coches de alto rendimiento con el útlimo lanzamiento de Need For Speed, nuevo NFS Underground",
+        "img":"./img/need.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Super Mario 64",
+        "description":"Super Mario 64 es un videojuego de plataformas 3D donde el jugador controla a Mario a través de varios niveles. Cada nivel es un mundo cerrado en el que el jugador es libre de explorar a su antojo sin limitaciones de tiempo.",
+        "img":"./img/mario_64.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Cuphead",
+        "description":"La historia trata acerca de dos hermanos, el protagonista Cuphead y Mugman, que deben derrotar a varios enemigos y jefes para poder saldar una deuda que tienen pendiente con el diablo.",
+        "img":"./img/cuphead.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Mario Kart 64",
+        "description":"Mario Kart es una saga derivada en los videojuegos de la franquicia Super Mario, siendo esta saga completamente relacionada al género de videojuegos de carreras.    ",
+        "img":"./img/mario_kart.jpg"
+    }
+    
+
+]

@@ -1,0 +1,314 @@
+@import "colorFont";
+
+.contSectionFive{
+    width: 100%;
+    padding: 0px;
+    background:white;
+    overflow: hidden;
+
+    .contSectionFive_rectaTop{
+        width: 100%;
+    }
+    .contSectionFive_title{
+        color: $color_violet_oscuro;
+        font-family: $font_family_titles_h2;
+        font-size: $fontSize_titles_h2;
+        text-align: center;    
+    }
+
+    .contSectionFive_contBox{
+        width:100%;
+        margin: auto;
+        padding: 30px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        animation-duration: 1s;
+        animation-delay: 0.6s;
+        .contSectionFive_contBox_block{
+            width: 380px;
+            height: 350px;
+            margin-bottom:50px;
+            background: rgb(31, 31, 31);
+            position: relative;
+
+            //BLOCK IMAGE
+            .contSectionFive_contBox_blockImg{
+                width: 100%;
+                height: 100%;
+                background: $color_violet_oscuro;
+                position: absolute;
+            }
+
+
+            //BLOCK SUPERIOR DEL CONTENIDO
+            .contSectionFive_contBox_blockContbox{
+                width:100% ;
+                height: 100%;
+                padding: 80px 50px;
+                background: transparent;
+                position: relative;
+                z-index: 10px;
+                opacity: 0;
+                transition: 0.2s linear;
+                
+                .contSectionFive_contBox_blockContbox_title{
+                    color: rgb(255, 255, 255);
+                    font-family: $font_family_titles_h2;
+                    position: relative;
+                    z-index: 10;
+                    font-size: 30px;
+                    
+                }
+                .contSectionFive_contBox_blockContbox_parrafo{
+                    margin-top: 15px;
+                    color:$color_violet_white;
+                    position: relative;
+                    z-index: 10;
+                    height: 110px;
+                }
+    
+                .contSectionFive_contBox_blockContbox_btn{
+                    margin-top: 25px;
+                    width: 150px;
+                    padding: 8px 0px;
+                    border: none;
+                    background: rgb(28,222,20);
+                    background: linear-gradient(120deg, rgba(28,222,20,1) 4%, rgba(2,1,20,0.8608485630580357) 56%);
+                    border-radius: 15px;
+                    position: relative;
+                    z-index: 10;
+                    color: white;
+                }
+                .contSectionFive_contBox_blockContbox_btn:hover{
+                    background: rgb(2,1,20);
+                    background: linear-gradient(120deg, rgba(2,1,20,0.8608485630580357) 47%, rgba(28,222,20,1) 66%);
+                    cursor: pointer;
+                }
+            }
+
+            .contSectionFive_contBox_blockContbox:hover{
+                opacity: 1;
+                background: rgba(0, 0, 0, 0.715);
+                cursor: pointer;
+            }
+            
+
+        }
+    }
+
+    .contSectionFive_rectaBottom{
+        width: 100%;
+        margin-bottom: -5px;
+    }
+    
+}
+
+
+
+
+
+/********************/
+/***********/
+/***************************/
+@media (min-width:601px)  and (max-width:769px){
+    .contSectionFive{
+        width: 100%;
+        padding: 0px;
+        background:white;
+        overflow: hidden;
+        .contSectionFive_title{
+            width: 100%;
+            line-height: 55px;
+            margin: auto;
+            background: whitesmoke;
+            color: $color_violet_oscuro;
+            font-family: $font_family_titles_h2;
+            font-size: $fontSize_titles_h2;
+            text-align: center;
+        }
+    
+        .contSectionFive_contBox{
+            width:100%;
+            margin: auto;
+            padding: 30px 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            
+            .contSectionFive_contBox_block{
+                width: 290px;
+                height: 350px;
+                margin-bottom:30px;
+                background: rgb(31, 31, 31);
+                position: relative;
+    
+                //BLOCK IMAGE
+                .contSectionFive_contBox_blockImg{
+                    width: 100%;
+                    height: 100%;
+                    background: $color_violet_oscuro;
+                    position: absolute;
+                }
+    
+    
+                //BLOCK SUPERIOR DEL CONTENIDO
+                .contSectionFive_contBox_blockContbox{
+                    width:100% ;
+                    height: 100%;
+                    padding: 70px 10px;
+                    background: transparent;
+                    position: relative;
+                    z-index: 10px;
+                    opacity: 0;
+                    transition: 0.2s linear;
+                    
+                    .contSectionFive_contBox_blockContbox_title{
+                        color: rgb(255, 255, 255);
+                        font-family: $font_family_titles_h2;
+                        position: relative;
+                        z-index: 10;
+                        font-size: 30px;
+                        
+                    }
+                    .contSectionFive_contBox_blockContbox_parrafo{
+                        margin-top: 15px;
+                        color:$color_violet_white;
+                        position: relative;
+                        z-index: 10;
+                        height:initial;
+                        padding: 5px 0px;
+                    }
+        
+                    .contSectionFive_contBox_blockContbox_btn{
+                        margin-top: 25px;
+                        width: 150px;
+                        padding: 8px 0px;
+                        border: none;
+                        background: rgb(28,222,20);
+                        background: linear-gradient(120deg, rgba(28,222,20,1) 4%, rgba(2,1,20,0.8608485630580357) 56%);
+                        border-radius: 15px;
+                        position: relative;
+                        z-index: 10;
+                        color: white;
+                    }
+                }
+    
+            }
+        }
+        
+    }
+    
+}
+
+
+
+
+
+/********************/
+/***********/
+/***************************/
+@media (min-width:320px)  and (max-width:600px){
+    .contSectionFive{
+        width: 100%;
+        padding: 0px;
+        background:white;
+        overflow: hidden;
+        .contSectionFive_title{
+            width: 100%;
+            line-height: 45px;
+            margin: auto;
+            background: whitesmoke;
+            color: $color_violet_oscuro;
+            font-family: $font_family_titles_h2;
+            font-size: 50px;
+            text-align: center;
+        }
+    
+        .contSectionFive_contBox{
+            width:100%;
+            margin: auto;
+            padding: 30px 10px;
+            display: flex;
+            flex-direction:column;
+            flex-wrap: wrap;
+            justify-content:flex-start;
+            align-items: center;
+            .contSectionFive_contBox_block{
+                width: 100%;
+                height: 370px;
+                margin-bottom:30px;
+                background: rgb(31, 31, 31);
+                position: relative;
+    
+                //BLOCK IMAGE
+                .contSectionFive_contBox_blockImg{
+                    width: 100%;
+                    height: 100%;
+                    background: $color_violet_oscuro;
+                    position: absolute;
+                }
+    
+    
+                //BLOCK SUPERIOR DEL CONTENIDO
+                .contSectionFive_contBox_blockContbox{
+                    width:100% ;
+                    height: 100%;
+                    padding: 70px 15px;
+                    background: transparent;
+                    position: relative;
+                    z-index: 10px;
+                    opacity: 0;
+                    transition: 0.2s linear;
+                    
+                    .contSectionFive_contBox_blockContbox_title{
+                        color: rgb(255, 255, 255);
+                        font-family: $font_family_titles_h2;
+                        position: relative;
+                        z-index: 10;
+                        font-size: 30px;
+                        
+                    }
+                    .contSectionFive_contBox_blockContbox_parrafo{
+                        margin-top: 15px;
+                        color:$color_violet_white;
+                        position: relative;
+                        z-index: 10;
+                        height:initial;
+                        padding: 5px 0px;
+                    }
+        
+                    .contSectionFive_contBox_blockContbox_btn{
+                        margin-top: 25px;
+                        width: 150px;
+                        padding: 8px 0px;
+                        border: none;
+                        background: rgb(28,222,20);
+                        background: linear-gradient(120deg, rgba(28,222,20,1) 4%, rgba(2,1,20,0.8608485630580357) 56%);
+                        border-radius: 15px;
+                        position: relative;
+                        z-index: 10;
+                        color: white;
+                    }
+                }
+    
+            }
+        }
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
