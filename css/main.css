@@ -2233,7 +2233,6 @@ body {
     width: 100%;
     line-height: 45px;
     margin: auto;
-    background: whitesmoke;
     color: #0c0c0c;
     font-family: "Orbitron", sans-serif;
     font-size: 50px;
@@ -2266,10 +2265,10 @@ body {
     width: 100%;
     height: 100%;
     padding: 70px 15px;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.58);
     position: relative;
     z-index: 10px;
-    opacity: 0;
+    opacity: 1;
     transition: 0.2s linear;
   }
   .contSectionFive .contSectionFive_contBox .contSectionFive_contBox_block .contSectionFive_contBox_blockContbox .contSectionFive_contBox_blockContbox_title {
