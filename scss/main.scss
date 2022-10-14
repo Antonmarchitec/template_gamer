@@ -13,9 +13,29 @@ html{
     scroll-behavior: smooth ;
 
 }
+
+
+
 body{
+    scroll-behavior:unset;
     background:$color_violet_oscuro;
     background: rgb(44, 44, 44)
+
+}
+
+body::-webkit-scrollbar{
+    width: 15px;
+    
+}
+body::-webkit-scrollbar-thumb{
+    background: rgb(45, 218, 45);
+    border-radius: 20px;
+    height: 100px;
+}
+body::-webkit-scrollbar-thumb:hover{
+    background: rgb(2, 89, 17);
+    height: 150px;
+    
 }
 
 

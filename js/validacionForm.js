@@ -134,7 +134,7 @@ function validar(){
         return false
     }else{
         Swal.fire({
-            title:"<h2> Mensaje enviado satisfactoriamente. <h2>",    //tilte si se acepta codigo html
+            title:"<h2> Mensaje enviado <h2>",    //tilte si se acepta codigo html
             icon:"success",  //error   wargning  info  success
             confirmButtonText:"Aceptar",
             backdrop:true,    //el fondo se matiza oscuro con true y false 
