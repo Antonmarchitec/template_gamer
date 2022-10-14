@@ -30,10 +30,12 @@
         align-items: center;
         .contSectionThree_media{
             width: 570px;
+            margin-bottom: 10px;
             animation-duration: 0.2s;
             animation-delay: 0.5s;
             .contSectionThree_media_title{
-                margin-top: 10px;
+                margin-top: 15px;
+                margin-left: 5px;
                 color: white;
                 font-family: $font_family_titles_h2;
             }     

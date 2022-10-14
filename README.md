@@ -22,7 +22,6 @@
 ## Descripción del proyecto:
 Landing desarrollada para proyecto Gamer (página de videojuegos) totalmente personalizada desde cero con HTML, CSS, SASS ,JavaScript, PHP y archivos JSON para extracción de datos, cuenta con un menú de navegación, integración a enlaces externos, botones, formulario de contacto con validación direccionado a una cuenta de correo electrónico, botón de desplazamiento de subida y es adaptable a dispositivos de escritorio (Desktop), tablet y móvil.   
 
-Nota: Los videos no se reproducen porque se encuentran en un repositorio de prueba.
 
 ## Diseño responsivo:
 - Desktop: 1440px
